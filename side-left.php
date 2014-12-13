@@ -1,8 +1,8 @@
 <div class="cart-count">
 	<p class="side-title">Keranjang Belanja</p>
-	<p class="cart"><i class="fa fa-shopping-cart"></i> 2 item</p>
+	<p class="cart"><i class="fa fa-shopping-cart"></i> <?php include "cart_count.php"; ?> item</p>
 	<div align="center">
-		<a href="" class="btn"><i class="fa fa-shopping-cart"></i> Keranjang</a>	
+		<a href="index.php?modul=cart" class="btn"><i class="fa fa-shopping-cart"></i> Keranjang</a>	
 	</div>
 </div>
 <div class="side-category">

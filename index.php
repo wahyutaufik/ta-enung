@@ -14,15 +14,17 @@ session_start();
 </head>
 <body>
 	<div id="wrapper">
-		<nav class="nav-menu">
-			<ul>
-				<li><a href="index.php?modul=home"><i class="fa fa-home"></i> home</a></li>
-				<li><a href="index.php?modul=produk"><i class="fa fa-lemon-o"></i> produk</a></li>
-				<li><a href="index.php?modul=ttg_kami"><i class="fa fa-sitemap"></i> tentang kami</a></li>
-				<li><a href="index.php?modul=pemesanan"><i class="fa fa-ticket"></i> cara pemesanan</a></li>
-				<li><a href="index.php?modul=konfirmasi"><i class="fa fa-check"></i> konfirmasi</a></li>
-			</ul>
-		</nav>
+		<?php if (empty($_SESSION['username'])): ?>
+			<nav class="nav-menu">
+				<ul>
+					<li><a href="index.php?modul=home"><i class="fa fa-home"></i> home</a></li>
+					<li><a href="index.php?modul=produk"><i class="fa fa-lemon-o"></i> produk</a></li>
+					<li><a href="index.php?modul=ttg_kami"><i class="fa fa-sitemap"></i> tentang kami</a></li>
+					<li><a href="index.php?modul=pemesanan"><i class="fa fa-ticket"></i> cara pemesanan</a></li>
+					<li><a href="index.php?modul=konfirmasi"><i class="fa fa-check"></i> konfirmasi</a></li>
+				</ul>
+			</nav>
+		<?php endif ?>
 		<div id="header">
 			<img src="xxccc">
 			<div class="description">
@@ -38,7 +40,7 @@ session_start();
 				}
 			?>
 		</div>
-		<div id="content" <?php if(!empty($_SESSION['username'])) echo "style='width: 74%;'"; ?>>
+		<div id="content" <?php if(!empty($_SESSION['username'])) echo "style='width: 74.9%;'"; ?>>
 			<?php  
 				include "halaman.php";
 			?>
@@ -59,4 +61,5 @@ session_start();
 		</div>
 	</div>
 </body>
+
 </html>
