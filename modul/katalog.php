@@ -32,7 +32,7 @@ if (isset($where)) {
                 <a href="index.php?modul=produkDetail&id=<?php echo $data['id_barang'] ?>"><img src="gambar/gambar_barang/<?php echo $data['gambar'] ?>" width="100" alt=""></a>
                 <br>
                 <div class="harga">Rp. <?php echo $data['harga'] ?></div>
-                <a href="index.php?modul=beli&id=<?php echo $data['id_barang'] ?>"><strong>Beli</strong></a>
+                <a href="input.php?input=add&id=<?php echo $data['id_barang'] ?>"><strong>Beli</strong></a>
             </td>
             <td width="73%">
             	<a href="index.php?modul=produkDetail&id=<?php echo $data['id_barang'] ?>">
