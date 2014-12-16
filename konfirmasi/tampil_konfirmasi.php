@@ -41,4 +41,4 @@ $dataTable = getTableData($table, $page, $dataPerPage);
 	<?php endforeach ?>
 	</tbody>
 </table>
-<body>
+<?php showPagination($table, $dataPerPage);  ?>

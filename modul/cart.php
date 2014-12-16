@@ -37,7 +37,7 @@
 						<?php $price = $v['harga']*$v['qty']; ?>
 	                	<tr>
 	                		<td><?php echo $no++ ?></td>
-	                		<td><img width="70" src="layout/images/produk/<?php echo $v['image'] ?>" alt=""></td>
+	                		<td><img width="70" src="gambar/gambar_barang/<?php echo $v['gambar'] ?>" alt=""></td>
 	                		<td><?php echo $v['nama_barang'] ?></td>
 	                		<td><?php echo $v['qty'] ?></td>
 	                		<td><?php echo $price; ?></td>

@@ -1,0 +1,1 @@
+<p class="side-title"><i class="fa fa-shopping-cart"></i> Cara Pemesanan</p>

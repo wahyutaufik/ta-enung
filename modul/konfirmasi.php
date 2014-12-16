@@ -33,7 +33,7 @@
 		</tr>
 		<tr>
 			<td>Tanggal Transfer</td>
-			<td><input type="text" placeholder="12-12-2014" name="tanggal"></td>
+			<td><input type="text" placeholder="dd-mm-yyyy" name="tanggal"></td>
 		</tr>
 		<tr>
 			<td>Email</td>

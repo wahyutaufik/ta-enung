@@ -1,4 +1,4 @@
-<p class="side-title"><i class="fa fa-home"></i> Produk</p>
+<p class="side-title"><i class="fa fa-list"></i> Produk</p>
 <?php 
 include "config/pagination.php";
 $page        = 1;

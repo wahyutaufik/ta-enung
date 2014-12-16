@@ -17,6 +17,7 @@ switch($modul)
 	case 'conf_pdf'         : include 'modul/struk.php'; break;
 	case 'konfirmasi'       : include 'modul/konfirmasi.php'; break;
 	case 'simpan_konfirmasi': include 'modul/simpan_konfirmasi.php'; break;
+	case 'pemesanan'       : include 'modul/order-step.php'; break;
 	case 'list-pesanan'     : include 'pesanan/tampil_pesanan.php'; break;
 	case 'lihat-pesanan'    : include 'pesanan/lihat-pesanan.php'; break;
 	case 'list-konfirmasi'  : include 'konfirmasi/tampil_konfirmasi.php'; break;
