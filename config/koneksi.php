@@ -1,7 +1,7 @@
 <?php
 $server   = "localhost";
 $username = "root";
-$password = "password";
+$password = "";
 $database = "ferani_baby_shop";
 
 // Koneksi dan memilih database di server

@@ -1,4 +1,4 @@
-body{background-color: #F8BBD0; font-family: Arial,Helvetica,sans-serif;}
+body{background-image:url(../img/background.jpg); font-family: Arial,Helvetica,sans-serif;}
 
 a{text-decoration: none;}
 a.btn { text-align: center; width: 100px; height: 28px; padding: 10px; background: none repeat scroll 0% 0% transparent; border-radius: 5px; border: 1px solid #880E4F; color: #880E4F;}
@@ -7,7 +7,7 @@ p.side-title {margin-bottom: 2px; background-color: #880E4F; text-align: center;
 p.cart {text-align: center; font-weight: bold; font-size: 30px; color: #F00;}
 table.table{overflow: auto;}
 
-#header {display: block; background: #880E4F; height: 200px; border-radius: 6px;}
+#header {display: block; background-image:url(../img/header.jpg); background-size: 200px 200px; height: 200px; border-radius: 6px;}
 #wrapper {background-color: #FFF; padding: 20px; height: auto; width: 1000px; margin: 0px auto auto; border-radius: 6px;}
 #wrapper #side-left{height: auto; margin-top: 5px; width: 20%; float: left; background: #F8BBD0; padding: 10px 10px; border-radius: 6px;}
 #wrapper #content{margin-left: 9px; border: 1px solid #880E4F; height: auto; float: left; padding: 10px 10px; height: auto; border-radius: 6px; width: 52%; margin-top: 5px;}
@@ -18,7 +18,7 @@ table.table{overflow: auto;}
 #footer a:hover{background: #FFF; color: #880E4F;}
 
 .clear{clear: both;}
-.description {background: url(../img/overlay.png) repeat; bottom: 0; padding: 30px; }
+.description {background: url(../img/overlay.png) repeat; bottom: 0; padding: 1px; }
 .description h1 a { color: white; text-decoration: none;}
 .fill{padding: 10px; text-align: justify; text-justify :inter-word;}
 .nav-menu {background: none repeat scroll 0% 0% #F06292; display: inline-block; width: 100%; position: inherit; top: 0px; left: 0px; right: 0px; z-index: 9; min-height: 45px; border-radius: 6px;}

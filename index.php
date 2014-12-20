@@ -26,7 +26,7 @@ session_start();
 			</nav>
 		<?php endif ?>
 		<div id="header">
-			<img src="xxccc">
+			<!-- <img src="layout/img/header.jpg"> -->
 			<div class="description">
                 <h1 class=""><a href="">FERANI BABY SHOP</a></h1>
             </div>
